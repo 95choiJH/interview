@@ -1,0 +1,28 @@
+
+
+/*
+    @세팅구역
+*/
+body {
+    font-size: 14px;
+    color:var(--colorBg1);
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+.blind{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    margin: -1px;
+}
+
+.common-inner{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 50px;
+}
