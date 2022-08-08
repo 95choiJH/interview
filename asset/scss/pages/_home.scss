@@ -14,14 +14,27 @@ ul {
     width: 100vw; height: 100vh;
     text-align: center;
     button {
+        width: 10vw; height: 5vw;
         margin: 50px 0;
     }
-    strong {
+    .wrap {
         position: absolute;
-        width: 90vw; height: 100px;
+        width: 100%;
         top: 50%; left: 50%;
         transform: translate(-50%, -50%);
-        font-size: 50px;
-        line-height: 70px;
+    }
+    .q {
+        display: block;
+        width: 100%; height: auto;
+        font-size: 40px;
+        line-height: 60px;
+    }
+    .a {
+        display: block;
+        text-align: center;
+        opacity: 1;
+        &.hide {
+            opacity: 0;
+        }
     }
 }
