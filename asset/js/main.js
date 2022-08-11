@@ -64,13 +64,13 @@ $(function(){
                     }else {
                         if (tale) {
                             taleIndex = random+1;
-                        } else {
-                            num.push(random)
-                            var question = $('li:nth-child('+random+') strong').text();
-                            var answer = $('li:nth-child('+random+') p').text();
-                            $('.q').text(question);
-                            $('.a').text(answer);
-                        } 
+                        }
+                        num.push(random)
+                        var question = $('li:nth-child('+random+') strong').text();
+                        var answer = $('li:nth-child('+random+') p').text();
+                        $('.q').text(question);
+                        $('.a').text(answer);
+                        
                         if(team) {
                             if (teamPossible) {
                                 teamCheck = true;
